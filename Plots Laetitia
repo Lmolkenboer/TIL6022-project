@@ -1,0 +1,33 @@
+import pandas as pd
+import numpy as np
+import math
+import scipy
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
+
+import plotly.io as pio
+
+file_path = (r"\Data_stores\Stores_country_data.csv")
+df = pd.read_csv(file_path, delimiter=';')
+df
+
+winkels = px.data.stocks()
+
+
+#Lijndiagram die daling in fysieke winkels laat zien en stijging in online aankopen
+#x = range(2012,2020)
+#y1 = 2
+#y2 = 4
+            
+fig, ax = plt.subplots(figsize=(15,9))
+#ax.plot(x,y1, linestyle='dashdot', marker='o')
+#ax.plot(x,y2, linestyle='solid', marker='p')  
+            
+ax.set_title('Change in physical stores and online purchases over the years')
+ax.set_xlabel('Years')
+ax.set_ylabel('Number of purchases')
+plt.legend()
+plt.show()
