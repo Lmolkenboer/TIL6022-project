@@ -1,0 +1,21 @@
+﻿;;Woningdichtheid;Inwonerdichtheid;Dichtbevolkt;;
+Regio's;Perioden;aantal woningen per km²;aantal inwoners per km²;binary;;
+Groningen (PV);2016;118;251,34;0;;
+Fryslân (PV);2016;89;189,57;0;;
+Drenthe (PV);2016;83;176,79;0;;
+Overijssel (PV);2016;149;317,37;0;;
+Flevoland (PV);2016;115;244,95;0;;
+Gelderland (PV);2016;178;379,14;0;;
+Utrecht (PV);2016;397;845,61;1;;
+Noord-Holland (PV);2016;488;1039,44;1;;
+Zuid-Holland (PV);2016;589;1254,57;1;;
+Zeeland (PV);2016;103;219,39;0;;
+Noord-Brabant (PV);2016;223;474,99;0;;
+Limburg (PV);2016;244;519,72;1;;
+Bron: CBS;;;;;;
+;;;;;;
+Grootte huishouden;;;;;;
+2,13;;;;;;
+;;;;;;
+Aanname:;Dichtbevolkt gebied is een landstreek met een dichtheid van meer dan 500 inw./km².;;;;;500
+;https://statbel.fgov.be/nl;;;;;
